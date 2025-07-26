@@ -1,8 +1,10 @@
-import React from 'react'
+import FormaValidation from "./components/FormaValidation"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <FormaValidation />
+    </div>
   )
 }
 
