@@ -19,10 +19,6 @@ const FormaValidation = () => {
           setError((prev) => ({ ...prev, [name]: '' }))
      };
 
-
-
-
-
      const handleSubmit = (e) => {
           e.preventDefault();
           setIsSubmitting(true);
